@@ -76,12 +76,12 @@
       "IMG_DEV1": {
         "description": "حط لينك صورة المطور ينجم .",
         "value": "https://telegra.ph/file/1a38e52936d7007199c78.jpg",
-        "required": true
+        "required": false
       },
       "IMG_BOT1": {
         "description": "حط لينك صورة البوت ينجم .",
         "value": "https://telegra.ph/file/1a38e52936d7007199c78.jpg",
-        "required": true
+        "required": false
       },
       "STRING_SESSION": {
         "description": "حط كود الجلسه هنا .",
@@ -106,17 +106,17 @@
       "START_IMG_URL": {
         "description": "Telegraph Image URL For Start Command",
         "value": "https://telegra.ph/file/1a38e52936d7007199c78.jpg",
-        "required": true
+        "required": false
       },      
       "UPSTREAM_REPO": {
         "description": "سيبها زي مهيا .",
         "value": "git clone https://github.com/o0ooo0oo/arab1",
-        "required": true
+        "required": false
       },
       "UPSTREAM_BRANCH": {
         "description": "Upstream Repo's Branch Name",
         "value": "master",
-        "required": true
+        "required": false
       }
     },
     "buildpacks": [
